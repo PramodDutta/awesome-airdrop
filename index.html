@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="promode">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Airdrop Alert</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="narrow-jumbotron.css" rel="stylesheet">
+<!-- Start Visual Website Optimizer Asynchronous Code -->
+<script type='text/javascript'>
+var _vwo_code=(function(){
+var account_id=323431,
+settings_tolerance=2000,
+library_tolerance=2500,
+use_existing_jquery=false,
+/* DO NOT EDIT BELOW THIS LINE */
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+</script>
+<!-- End Visual Website Optimizer Asynchronous Code -->
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.min.js"></script>
+     <script src="app.js"></script>
+
+<style type="text/css">
+	.roww{
+		margin-bottom: 10px
+	}
+
+
+
+</style>
+
+  </head>
+
+  <body ng-app="app">
+
+    <div class="container" ng-controller="HelloController">
+
+
+ <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills float-right">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/guide.html" data-toggle="modal">Airdrop Guide</a>
+            </li>
+       
+          </ul>
+        </nav>
+        <h3 class="text-muted">Airdrop Alert</h3>
+        <div >
+		
+	    </div>
+      </div>
+
+      <!-- Modal -->
+ 
+      <div class="jumbotron">
+        <h1 class="display-4">AirDrop Alerts</h1><span class="">(Free Tokens)</span>
+        <p class="lead">An Airdrop is a free distribution of cryptocurrencies. They allow to advertising the company who managing the project.
+It costs you nothing and can pay big on long term !</p>
+      </div>
+
+<div class="alert alert-success">
+  <strong>Updated!</strong> 11th November 2017</div>
+
+      <div class="row marketing">
+
+
+
+        <div class="col-lg-12">
+
+        	<div class="roww" style="border:1.5px solid black;padding: 10px" ng-repeat="i in data" >
+        		  
+        		  <h4 style="color: #00F">{{i.name}}</h4><p>{{i.description}}</p>
+		          <a class="btn btn-primary" href={{i.website}}>Get Token</a>
+		   
+		          <b>Reward</b> :{{i.rewards}} ||
+		          <b>Estimated Value</b> :  {{i.value}} ||
+		          <b>Status</b> : {{i.status}}
+		          <br>
+			</div>
+
+        </div>
+
+
+
+      <footer class="footer">
+        <p>© Airdrop Alert 2017 |  With ♥ From : Promode 🏴</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
