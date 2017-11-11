@@ -43,3 +43,6 @@ For this on your computer and your smartphone create a note with :
 - Your Telegram (@lolp)
 
 
+![airdropalert.org](http://oi65.tinypic.com/289bksw.jpg)
+
+
